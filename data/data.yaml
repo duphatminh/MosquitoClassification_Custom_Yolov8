@@ -1,0 +1,13 @@
+train: D:/github.com/MosquitoClassification_Custom_Yolov8/data/train
+val: D:/github.com/MosquitoClassification_Custom_Yolov8/data/valid/images
+#test: D:/github.com/MosquitoClassification_Custom_Yolov8/data/test/images
+
+nc: 1
+names: ['mosquitos']
+
+roboflow:
+  workspace: randy-h-ej0mq
+  project: moquitos
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/randy-h-ej0mq/moquitos/dataset/1
