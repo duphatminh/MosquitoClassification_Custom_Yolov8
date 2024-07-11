@@ -1,6 +1,9 @@
-train: D:/github.com/MosquitoClassification_Custom_Yolov8/data/train
-val: D:/github.com/MosquitoClassification_Custom_Yolov8/data/valid/images
-#test: D:/github.com/MosquitoClassification_Custom_Yolov8/data/test/images
+train: S:/projects/github.com/MosquitoClassification_Custom_Yolov8/data/train/images
+val: S:/projects/github.com/MosquitoClassification_Custom_Yolov8/data/valid/images
+#test: S/:projects/github.com/MosquitoClassification_Custom_Yolov8/data/test/images
+
+weights_dir: S:\projects\github.com\MosquitoClassification_Custom_Yolov8\weights
+runs_dir: S:\projects\github.com\MosquitoClassification_Custom_Yolov8\runs
 
 nc: 1
 names: ['mosquitos']
